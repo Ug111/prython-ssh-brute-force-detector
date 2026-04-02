@@ -6,6 +6,10 @@ This project analyzes SSH authentication logs to detect potential brute-force  a
 ## 🎯 Goal
 I built this to better understand howfailed log patterns can indicate malicious activities.
 
+## SOC Use Case
+This tool simulates a SOC detection workflow where authentication logs are analyzed to identify
+brute-force attacks and potential account compromise.
+
 ## 🔍 what it does:
 - Parses auth logs
 - Tracks failed login attempts per IP
